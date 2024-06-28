@@ -6,6 +6,7 @@ This repository contains MATLAB functions for sophisticated option pricing techn
 
 ### Geometric Brownian Motion
 - **`GBM.m`**: Simulates stock price paths under the assumption that prices follow a geometric Brownian motion, a fundamental stochastic process used in financial modeling. This model forms the backbone for simulating the underlying asset paths in option pricing.
+- **`GBMwJumps.m`**: Extends the `GBM` model by incorporating jumps, modeled using a Poisson process combined with normally distributed jumps. This model reflects more realistic market scenarios where price jumps (due to news or events) are observed, enhancing the modeling of asset paths for sophisticated option pricing.
 
 ### Monte Carlo Simulations
 Monte Carlo methods are used for pricing options when analytical solutions are difficult to derive. They rely on the repeated random sampling to compute the results.
